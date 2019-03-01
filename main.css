@@ -3,8 +3,13 @@ li a {
   list-style: none;
 }
 
-.nav {
-  height: 50px;
+
+.navBar {
+  background-color: #6ed3cf;
+
+}
+/* .nav {
+  height: 10%;
   width: 100%;
   background-color: #6ed3cf;
   position: fixed;
@@ -22,10 +27,10 @@ li a {
   opacity: 0.6;
   margin: 0 -10px;
   padding: 7px 0;
-  height: 20px;
+  height: 100%;
 }
 
-#ham, 
+#ham,
 #menuItems {
   display: inline-block;
 }
@@ -37,4 +42,4 @@ li a {
 
 #menuItems li {
   display: none;
-}
+} */
