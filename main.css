@@ -1,12 +1,16 @@
 /****************    MAIN     *****************/
+* {
+font-family: 'Nunito Sans', sans-serif;}
 
 body {
   min-height: 100vh;
 }
 
 li,
-li a {
+li a,
+li a:hover {
   list-style: none;
+  text-decoration: none;
 }
 
 
@@ -14,15 +18,32 @@ li a {
           HEADER
 ***************************************/
 header {
-  background-color: #24305e;
+  background-color: #CDCDCD;
   color: #fff;
   padding-bottom: 10px;
 }
 
+.loc {
+  width: 350px;
+  border-top: 6px solid #fa7c92;
+  border-bottom: 6px solid #fa7c92;
+  padding: 6px 0;
+  color: #6b7a8f;
+}
+
+#contact{
+  margin-right: 25px;
+  text-align: right;
+}
+
 #logo {
-  width: 340px;
-  margin-top: -50px;
-  margin-bottom: -50px;
+  width: 30vh; 
+  margin: 40px 0;
+}
+
+#address {
+  margin-left: 25px;
+  text-align: left;
 }
 
 #siteMenu {
@@ -34,16 +55,15 @@ header {
 }
 
 .navBut {
-  border: 2px solid #f76c6c;
-  padding: 7px 8px;
+  padding: 8px 12px;
   border-radius: 7px;
-  background-color: #f76c6c;
-  color: #24305e;
-  box-shadow: 0px 2px 6px 1px #606060;
+  color: #6b7a8f;
+  font-size: 1.1rem;
 }
 
+
 #content {
-  background-color: #f5e6cc;
+  background-color: #fff7c0;
   padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
