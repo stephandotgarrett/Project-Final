@@ -4,3 +4,10 @@
 //   $('#navBar').addClass('fixed-top')
 //
 // }
+
+
+$(window).on("scroll", function () {
+
+        $("#header").addClass("header");
+
+});
