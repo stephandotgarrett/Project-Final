@@ -1,45 +1,83 @@
+/****************    MAIN     *****************/
+* {
+font-family: 'Nunito Sans', sans-serif;}
+
+html {
+
+  height: 100vh;
+  margin: 0;
+  background: url("img/waffles.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #ccc;
+
+}
+
+
+body {
+  min-width: 100%;
+  margin: 0;
+
+}
+
 li,
-li a {
+li a,
+li a:hover {
   list-style: none;
+  text-decoration: none;
 }
 
 
-.navBar {
-  background-color: #6ed3cf;
+/***************************************
+          HEADER
+***************************************/
+header {
 
 }
-/* .nav {
-  height: 10%;
-  width: 100%;
-  background-color: #6ed3cf;
-  position: fixed;
-  bottom: 0;
+
+.header {
+  background-color: rgba(54,55,63, .85);
   color: #fff;
 }
 
-#menuItems {
-  margin: 0 -10px;
-  padding: 10px 20px;
+#nav {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-#ham {
-  display: inline-block;
-  opacity: 0.6;
-  margin: 0 -10px;
-  padding: 7px 0;
-  height: 100%;
+#siteMenu li a{
+  opacity: 1;
+  color: white;
 }
 
-#ham,
-#menuItems {
-  display: inline-block;
+#logo {
+  height: 50px;
 }
 
-.siteBody {
-  display: flex;
-  flex-direction: column;
+#container {
+  margin-top: 100px;
+  height: 50%;
+  color: white;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-shadow: inset 0 0 10px 1px #000;
 }
 
-#menuItems li {
-  display: none;
-} */
+.content {
+
+  margin: 100px;
+  width: 80%;
+  position: absolute;
+  top: 30%;
+  height: 50%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 10px;
+  background-color: #65ccb8;
+}
