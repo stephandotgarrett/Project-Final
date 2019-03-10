@@ -1,6 +1,13 @@
-if(window.matchMedia("(min-width: 766px)").matches){
+// if(window.matchMedia("(min-width: 766px)").matches){
+//
+//   $('#navBar').removeClass('fixed-bottom')
+//   $('#navBar').addClass('fixed-top')
+//
+// }
 
-  $('#navBar').removeClass('fixed-bottom')
-  $('#navBar').addClass('fixed-top')
 
-}
+$(window).on("scroll", function () {
+
+        $("#header").addClass("header");
+
+});
