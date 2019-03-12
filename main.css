@@ -70,10 +70,12 @@ header {
       radial-gradient(
       rgba(200, 200, 200, 0.45),
       rgba(0, 0, 0, 0.45)
-    ), url("img/burger1.jpg") no-repeat center center;
+    ), url("img/tablefood.jpg") no-repeat center center;
   background-size: cover;
   background-color: #ccc;
+  color: white;
 }
+/*Photo by Ray Piedra from Pexels */
 
 #section1 {
   background-image: url("img/concrete.png");
