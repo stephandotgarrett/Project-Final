@@ -7,7 +7,10 @@
 
 
 $(window).on("scroll", function () {
-
+if ($(this).scrollTop() > 1) {
         $("#header").addClass("header");
-
+}
+else {
+        $("#header").removeClass("header");
+    }
 });
