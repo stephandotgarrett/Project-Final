@@ -9,10 +9,8 @@ html {
 
 body {
   min-width: 100%;
-  margin: 0;
   height: 100vh;
-  margin: 0;
-  background: url("img/waffles.jpg") no-repeat center center;
+  background: url("img/burger1.jpg") no-repeat center center;
   background-size: cover;
   background-color: #ccc;
 }
@@ -41,7 +39,6 @@ header {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 #siteMenu li a{
@@ -61,6 +58,16 @@ header {
   opacity: 0.5;
 }
 
+#section1 {
+  background-image: url("img/hex.png");
+  background-repeat: repeat;
+  background-color: #ccc;
+}
+
+#content {
+  width: 80%;
+  margin-left: 10%;
+}
 
 footer {
   background-color: #65ccb8;
