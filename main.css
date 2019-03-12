@@ -29,12 +29,13 @@ p {
           HEADER
 ***************************************/
 header {
-
+  transition: .3s ease;
 }
 
 .header {
   background-color: rgba(54,55,63, .85);
   color: #fff;
+  transition: .3s ease;
 }
 
 #nav {
