@@ -49,6 +49,10 @@ header {
   padding-left: 0px;
 }
 
+#siteMenu {
+  max-width: 75%;
+}
+
 #siteMenu li a{
   opacity: 1;
   color: white;
