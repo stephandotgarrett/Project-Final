@@ -1,6 +1,6 @@
 /****************    MAIN     *****************/
 * {
-font-family: 'Nunito Sans', sans-serif;}
+  font-family: 'Laila', sans-serif;}
 
 html {
 }
@@ -58,6 +58,11 @@ header {
   color: white;
 }
 
+#ham {
+  height: 26px;
+  margin-bottom: 15px;
+}
+
 #logo {
   height: 50px;
   margin-right: 80px;
@@ -66,7 +71,6 @@ header {
 }
 
 #container {
-  padding-top: 100px;
   padding-left: 10%;
   padding-right: 10%;
   background: 
@@ -81,10 +85,28 @@ header {
 }
 /*Photo by Ray Piedra from Pexels */
 
+#phrase {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
 #section1 {
   background-image: url("img/concrete.png");
   background-repeat: repeat;
   background-color: #ccc;
+}
+
+#arrowDiv {
+  width: 80%;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+#arrow {
+  height: 26px;
 }
 
 #content {
