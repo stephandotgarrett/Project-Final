@@ -93,6 +93,7 @@ header {
 
 
 #container {
+  padding-top: 100px;
   padding-left: 10%;
   padding-right: 10%;
   background: 
@@ -108,17 +109,35 @@ header {
 }
 /*Photo by Ray Piedra from Pexels */
 
+#container2 {
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: 
+      radial-gradient(
+      rgba(65, 75, 85, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ), url("img/board.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #ccc;
+  color: white;
+  height: 100vh;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+/*Photo by Lukas from Pexels */
+
 #phrase {
   position: absolute;
   margin-left: 10%;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 #arrowDiv {
-  width: 80%;
+  width: 5%;
   position: absolute;
   text-align: center;
   bottom: 0;
+  margin-left: 38%;
   margin-bottom: 20px;
 }
 
