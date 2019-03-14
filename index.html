@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Goose Creek Diner Project</title>
     <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Laila|Nunito+Sans|Questrial" rel="stylesheet">
   </head>
@@ -12,10 +13,10 @@
   <body class="">
 
       <header id="header" class="fixed-top">
-        <nav id="nav" class="d-flex flex-row navbar justify-content-between align-items-center">
-          <a href="#" class="d-flex flex-row">
-          <img id="logo" class="" src="img/goose.svg" alt="">
-          <h6>Goose Creek<br>Diner</h6>
+        <nav id="nav" class="d-flex flex-row navbar justify-content-between">
+          <a href="#" id="logo" class="d-flex flex-row">
+          <img id="goose" src="img/goose.svg" alt="">
+          <p id="name"><em>Goose Creek<br>Diner</em></p>
           </a>
           <ul id="siteMenu" class="d-none d-sm-none d-md-flex flex-grow-1 justify-content-between">
             <li><a href="#" class="navBut">Home</a></li>
@@ -25,7 +26,7 @@
             <li><a href="#" class="navBut">About</a></li>
             <li><a href="#" class="navBut">Contact</a></li>
           </ul>
-          <img href="#" id="ham" class="d-md-none"  src="img/hamb1.svg" alt="">
+          <img href="#" id="hamburger" class="d-md-none"  src="img/hamb1.svg" alt="">
           
         </nav>
        </header>
@@ -38,7 +39,7 @@
           <article id="catch">
             <div id="phrase">
               <h2>Much more than your typical diner</h2>
-              <p>Goose Creek Diner</p>
+              <h5><em>Goose Creek Diner</em></h5>
             </div>
             <div id="arrowDiv">
               <a href="#section1"><h6>Menus</h6>
@@ -46,6 +47,8 @@
             </div>
            </article>
         </div>
+    
+    
     
         <div id="section1">
           <section id="content" class="d-flex flex-column flex-xl-row justify-content-around">
@@ -64,7 +67,6 @@
       </footer>
 
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
     </body>

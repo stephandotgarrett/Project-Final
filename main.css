@@ -12,10 +12,12 @@ body {
 
 
 li,
-li a,
-li a:hover {
+* a:hover,
+* a{
   list-style: none;
   text-decoration: none;
+  opacity: 1;
+  color: white;
 }
 
 p {
@@ -24,9 +26,19 @@ p {
   padding-bottom: 1rem;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+  list-style: none;  
+  text-decoration: none;
+}
+
 /***************************************
-          HEADER
+                HEADER
 ***************************************/
+
+/*  header background and styling */
+
+
 header {
   height: 80px;
   transition: .3s ease;
@@ -38,6 +50,9 @@ header {
   color: #fff;
   transition: .3s ease;
 }
+
+/*  navigation elements */
+
 
 #nav {
   width: 80%;
@@ -53,35 +68,43 @@ header {
   max-width: 75%;
 }
 
-#siteMenu li a{
-  opacity: 1;
-  color: white;
-}
-
-#ham {
+#hamburger {
   height: 26px;
   margin-bottom: 15px;
 }
 
 #logo {
   height: 50px;
-  margin-right: 80px;
+  width: 200px;
   margin-top: -10px;
   margin-bottom: 6px;
 }
+
+#goose {
+  margin-right: 10px;
+}
+
+#name {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/*   upper content section   */
+
 
 #container {
   padding-left: 10%;
   padding-right: 10%;
   background: 
       radial-gradient(
-      rgba(200, 200, 200, 0.45),
+      rgba(65, 75, 85, 0.45),
       rgba(0, 0, 0, 0.45)
     ), url("img/tablefood.jpg") no-repeat center center;
   background-size: cover;
   background-color: #ccc;
   color: white;
   height: 100vh;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
 }
 /*Photo by Ray Piedra from Pexels */
 
@@ -89,12 +112,6 @@ header {
   position: absolute;
   margin-left: 10%;
   margin-top: 15%;
-}
-
-#section1 {
-  background-image: url("img/concrete.png");
-  background-repeat: repeat;
-  background-color: #ccc;
 }
 
 #arrowDiv {
@@ -109,6 +126,16 @@ header {
   height: 26px;
 }
 
+/*    lower content section   */
+
+
+#section1 {
+  background-image: url("img/concrete.png");
+  background-repeat: repeat;
+  background-color: #ccc;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+
 #content {
   max-width: 80%;
   margin-left: 10%;
@@ -117,6 +144,16 @@ header {
 .menu {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+
+/*    footer    */
+
+footer {
+  background-image: linear-gradient(#414345, #232526);
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
 }
 
 .social-icon {
@@ -131,12 +168,6 @@ header {
   padding: 15px;
 }
 
-footer {
-  background-image: linear-gradient(#414345, #232526);
-  font-size: 0.75em;
-  text-align: center;
-  color: #fff;
-}
 
 @media (min-width: 1200px) {
   .menu {
