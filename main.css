@@ -102,7 +102,7 @@ header {
       rgba(0, 0, 0, 0.45)
     ), url("img/tablefood.jpg") no-repeat center center;
   background-size: cover;
-  background-color: #ccc;
+
   color: white;
   height: 100vh;
   box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
