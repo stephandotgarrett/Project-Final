@@ -1,4 +1,4 @@
-/****************    MAIN     *****************/
+jquery toggle/****************    MAIN     *****************/
 * {
   font-family: 'Laila', sans-serif;}
 
@@ -64,14 +64,13 @@ header {
   padding-left: 0px;
 }
 
-#siteMenu {
-  max-width: 75%;
-}
 
 #hamburger {
   height: 26px;
   margin-bottom: 15px;
 }
+
+
 
 #logo {
   height: 50px;
@@ -188,8 +187,48 @@ footer {
 }
 
 
+/**************************************************
+                Responsive Styling         
+**************************************************/
+
+
+@media screen and (max-width: 768px) {
+  .main_nav {
+    display: none;
+  }
+  
+  .drop {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: .8;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  }
+  
+}
+
+
+@media (min-width: 768px) { 
+  .main_nav {
+    display: flex;
+    flex: row;
+    max-width: 75%;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+}
+
 @media (min-width: 1200px) {
   .menu {
     max-width: 45%;
   }
+
 }
+
+
