@@ -28,7 +28,7 @@ p {
 
 a:hover, a:visited, a:link, a:active
 {
-  list-style: none;  
+  list-style: none;
   text-decoration: none;
 }
 
@@ -81,6 +81,7 @@ header {
 
 #goose {
   margin-right: 10px;
+  width: 25%;
 }
 
 #name {
@@ -95,7 +96,7 @@ header {
   padding-top: 100px;
   padding-left: 10%;
   padding-right: 10%;
-  background: 
+  background:
       radial-gradient(
       rgba(65, 75, 85, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -108,22 +109,7 @@ header {
 }
 /*Photo by Ray Piedra from Pexels */
 
-#container2 {
-  padding-top: 100px;
-  padding-left: 10%;
-  padding-right: 10%;
-  background: 
-      radial-gradient(
-      rgba(65, 75, 85, 0.45),
-      rgba(0, 0, 0, 0.45)
-    ), url("img/board.jpg") no-repeat center center;
-  background-size: cover;
-  background-color: #ccc;
-  color: white;
-  height: 100vh;
-  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
-}
-/*Photo by Lukas from Pexels */
+
 
 #phrase {
   position: absolute;
@@ -155,11 +141,14 @@ header {
 }
 
 #content {
+  height: auto;
   max-width: 80%;
   margin-left: 10%;
 }
 
 .menu {
+  height: 100%;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -181,12 +170,41 @@ footer {
 }
 
 .contain {
-  max-width: 80%;
+  /* max-width: 80%; */
   margin: 0 auto;
   padding: 15px;
 }
 
+/*  catering.html styles  */
 
+#container2 {
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background:
+      radial-gradient(
+        rgba(35,37,38, 0.45),
+        rgba(65,67,68, 0.45)
+    ), url("img/board.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #ccc;
+  color: white;
+  height:90vh;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+/*Photo by Lukas from Pexels */
+
+#content2 {
+  max-height: 90%;
+}
+
+#cater {
+  object-fit: contain;
+}
+
+/*  media queries */
+
+<<<<<<< HEAD
 /**************************************************
                 Responsive Styling         
 **************************************************/
@@ -225,6 +243,9 @@ footer {
 }
 
 @media (min-width: 1200px) {
+=======
+@media (min-width: 992px) {
+>>>>>>> 90186416d373c248d216b219b9b54cddd7c5a603
   .menu {
     max-width: 45%;
   }
