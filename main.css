@@ -1,4 +1,4 @@
-jquery toggle/****************    MAIN     *****************/
+/*jquery toggle*//****************    MAIN     *****************/
 * {
   font-family: 'Laila', sans-serif;}
 
@@ -204,7 +204,7 @@ footer {
 
 /*  media queries */
 
-<<<<<<< HEAD
+
 /**************************************************
                 Responsive Styling         
 **************************************************/
@@ -216,23 +216,23 @@ footer {
   }
   
   .drop {
-  height: 100%;
-  width: 250px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  opacity: .8;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: .8;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
   }
   
 }
 
 
-@media (min-width: 768px) { 
+@media screen and (min-width: 768px) { 
   .main_nav {
     display: flex;
     flex: row;
@@ -242,10 +242,7 @@ footer {
   }
 }
 
-@media (min-width: 1200px) {
-=======
-@media (min-width: 992px) {
->>>>>>> 90186416d373c248d216b219b9b54cddd7c5a603
+@media screen and (min-width: 992px) {
   .menu {
     max-width: 45%;
   }
