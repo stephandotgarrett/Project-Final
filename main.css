@@ -198,11 +198,27 @@ footer {
   max-height: 90%;
 }
 
-#cater {
+#cater_menu {
   object-fit: contain;
 }
 
-/*  media queries */
+#cater_div {
+  font-size: .8rem;
+  min-width: 400px;
+  margin-left: -100px;  
+}
+
+#cater_list_l {
+  padding-left: 10px;
+
+}
+
+
+#cater_list_r {
+  min-width: 50px;
+}
+
+
 
 
 /**************************************************
@@ -228,7 +244,6 @@ footer {
     padding-top: 60px;
     transition: 0.5s;
   }
-  
 }
 
 
@@ -242,11 +257,16 @@ footer {
   }
 }
 
+@media screen and (max-width: 992px) {
+  #content2 {
+    max-width: 400px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .menu {
     max-width: 45%;
   }
-
 }
 
 
