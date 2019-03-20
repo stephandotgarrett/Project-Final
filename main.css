@@ -161,6 +161,7 @@ footer {
   font-size: 0.75em;
   text-align: center;
   color: #fff;
+  bottom: 0;
 }
 
 .social-icon {
@@ -185,7 +186,7 @@ footer {
       radial-gradient(
         rgba(35,37,38, 0.45),
         rgba(65,67,68, 0.45)
-    ), url("img/board.jpg") no-repeat center center;
+    ), url("img/tablebread.jpg") no-repeat center center;
   background-size: cover;
   background-color: #ccc;
   color: white;
@@ -196,6 +197,7 @@ footer {
 
 #content2 {
   max-height: 90%;
+  max-width: 90%;
 }
 
 #cater_menu {
@@ -203,22 +205,59 @@ footer {
 }
 
 #cater_div {
-  font-size: .8rem;
+  font-size: 0.85rem;
   min-width: 400px;
-  margin-left: -100px;  
+  margin-left: 20px;
 }
 
 #cater_list_l {
   padding-left: 10px;
-
 }
-
 
 #cater_list_r {
-  min-width: 50px;
+  min-width: 75px;
 }
 
 
+
+/*      specials page stying    */
+
+#container3 {
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background:
+      radial-gradient(
+        rgba(35,37,38, 0.45),
+        rgba(65,67,68, 0.45)
+    ), url("img/board.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #ccc;
+  color: white;
+  height:90vh;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+/*Photo by Lukas from Pexels */
+
+
+/*      about page stying    */
+
+#container4 {
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background:
+      radial-gradient(
+        rgba(35,37,38, 0.45),
+        rgba(65,67,68, 0.45)
+    ), url("img/about1.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #ccc;
+  color: white;
+  height:92vh;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+/*Photo by Lukas from Pexels */
 
 
 /**************************************************
@@ -226,7 +265,7 @@ footer {
 **************************************************/
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .main_nav {
     display: none;
   }
@@ -247,7 +286,7 @@ footer {
 }
 
 
-@media screen and (min-width: 768px) { 
+@media (min-width: 768px) { 
   .main_nav {
     display: flex;
     flex: row;
@@ -257,16 +296,27 @@ footer {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
   #content2 {
-    max-width: 400px;
+    max-width: 350px;
+  }
+  
+  #cater_div {
+    font-size: .7rem;
+    max-height: 10%;
+    margin-top: 10px;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .menu {
     max-width: 45%;
   }
+  
+  #cater_menu {
+  max-width: 50%;
+  }
+  
 }
 
 
