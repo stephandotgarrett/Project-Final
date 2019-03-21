@@ -1,4 +1,4 @@
-/****************    MAIN     *****************/
+/*jquery toggle*//****************    MAIN     *****************/
 * {
   font-family: 'Laila', sans-serif;}
 
@@ -64,14 +64,13 @@ header {
   padding-left: 0px;
 }
 
-#siteMenu {
-  max-width: 75%;
-}
 
 #hamburger {
   height: 26px;
   margin-bottom: 15px;
 }
+
+
 
 #logo {
   height: 50px;
@@ -103,7 +102,7 @@ header {
       rgba(0, 0, 0, 0.45)
     ), url("img/tablefood.jpg") no-repeat center center;
   background-size: cover;
-  background-color: #ccc;
+
   color: white;
   height: 100vh;
   box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
@@ -162,6 +161,7 @@ footer {
   font-size: 0.75em;
   text-align: center;
   color: #fff;
+  bottom: 0;
 }
 
 .social-icon {
@@ -186,7 +186,7 @@ footer {
       radial-gradient(
         rgba(35,37,38, 0.45),
         rgba(65,67,68, 0.45)
-    ), url("img/board.jpg") no-repeat center center;
+    ), url("img/tablebread.jpg") no-repeat center center;
   background-size: cover;
   background-color: #ccc;
   color: white;
@@ -197,16 +197,126 @@ footer {
 
 #content2 {
   max-height: 90%;
+  max-width: 90%;
 }
 
-#cater {
+#cater_menu {
   object-fit: contain;
 }
 
-/*  media queries */
+#cater_div {
+  font-size: 0.85rem;
+  min-width: 400px;
+  margin-left: 20px;
+}
+
+#cater_list_l {
+  padding-left: 10px;
+}
+
+#cater_list_r {
+  min-width: 75px;
+}
+
+
+
+/*      specials page stying    */
+
+#container3 {
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background:
+      radial-gradient(
+        rgba(35,37,38, 0.45),
+        rgba(65,67,68, 0.45)
+    ), url("img/board.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #ccc;
+  color: white;
+  height:90vh;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+/*Photo by Lukas from Pexels */
+
+
+/*      about page stying    */
+
+#container4 {
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background:
+      radial-gradient(
+        rgba(35,37,38, 0.45),
+        rgba(65,67,68, 0.45)
+    ), url("img/about1.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #ccc;
+  color: white;
+  height:92vh;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+/*Photo by Lukas from Pexels */
+
+
+/**************************************************
+                Responsive Styling         
+**************************************************/
+
+
+@media (max-width: 768px) {
+  .main_nav {
+    display: none;
+  }
+  
+  .drop {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: .8;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+}
+
+
+@media (min-width: 768px) { 
+  .main_nav {
+    display: flex;
+    flex: row;
+    max-width: 75%;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) {
+  #content2 {
+    max-width: 350px;
+  }
+  
+  #cater_div {
+    font-size: .7rem;
+    max-height: 10%;
+    margin-top: 10px;
+  }
+}
 
 @media (min-width: 992px) {
   .menu {
     max-width: 45%;
   }
+  
+  #cater_menu {
+  max-width: 50%;
+  }
+  
 }
+
+
