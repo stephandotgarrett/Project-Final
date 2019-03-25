@@ -38,12 +38,6 @@ a:hover, a:visited, a:link, a:active
 
 /*  header background and styling */
 
-
-header {
-  height: 80px;
-  transition: .3s ease;
-}
-
 .header {
   height: 70px;
   background-color: rgba(54,55,63, .85);
