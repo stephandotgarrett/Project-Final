@@ -130,7 +130,7 @@ header {
   height: 26px;
 }
 
-/*    lower content section   */
+/*    index.html lower content section   */
 
 
 #section1 {
@@ -145,6 +145,9 @@ header {
   max-width: 80%;
   margin-left: 10%;
 }
+
+
+/*    main menus display styling   */
 
 .menu {
   height: 100%;
@@ -195,6 +198,10 @@ footer {
 }
 /*Photo by Lukas from Pexels */
 
+
+
+/*    menu display styling    */
+
 #content2 {
   max-height: 90%;
   max-width: 90%;
@@ -220,7 +227,7 @@ footer {
 
 
 
-/*      specials page stying    */
+/*      specials page stying     */
 
 #container3 {
   padding-top: 100px;
@@ -240,7 +247,7 @@ footer {
 /*Photo by Lukas from Pexels */
 
 
-/*      about page stying    */
+/*      about page stying     */
 
 #container4 {
   padding-top: 100px;
@@ -261,7 +268,7 @@ footer {
 
 
 /**************************************************
-                Responsive Styling         
+                Responsive Styling
 **************************************************/
 
 
@@ -269,7 +276,7 @@ footer {
   .main_nav {
     display: none;
   }
-  
+
   .drop {
     height: 100%;
     width: 250px;
@@ -286,7 +293,7 @@ footer {
 }
 
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .main_nav {
     display: flex;
     flex: row;
@@ -300,7 +307,7 @@ footer {
   #content2 {
     max-width: 350px;
   }
-  
+
   #cater_div {
     font-size: .7rem;
     max-height: 10%;
@@ -312,11 +319,8 @@ footer {
   .menu {
     max-width: 45%;
   }
-  
+
   #cater_menu {
   max-width: 50%;
   }
-  
 }
-
-
