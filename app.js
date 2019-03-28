@@ -11,7 +11,7 @@ else {
 
 ////  Show/Hide side navigation on hamburger click ////
 
-$('#hamburger').on("click", function () {  
+$('#hamburger').on("click", function () {
     $("#siteMenu").toggleClass("main_nav drop");
 });
 
@@ -23,4 +23,3 @@ $(window).resize(function(){
     $("#siteMenu").addClass("main_nav");
   }
 });
-
